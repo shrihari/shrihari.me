@@ -1,0 +1,38 @@
+.about {
+	display: flex;
+}
+
+.about-photo {
+	width: 240px;
+	margin-right: 4em;
+}
+
+.about-photo > img {
+	width: 100%;
+}
+
+.about-text {
+	flex: 1;
+	font-size: 1.2em;
+	line-height: 1.6;
+}
+.about-text > div {
+	margin-bottom: 1.8em;
+}
+
+@media only screen and (max-width: 767px) {
+
+	.about {
+		flex-direction: column;
+	}
+	.about-photo {
+		width: 60%;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-bottom: 2em;
+	}
+	.pointing-finger {
+		display: none;
+	}
+
+}
