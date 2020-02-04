@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>back</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="back" fill-rule="nonzero">
+            <g id="Oval-2-Copy">
+                <g id="path-1-link" fill="#333333">
+                    <circle id="path-1" cx="24" cy="24" r="24"></circle>
+                </g>
+                <g id="path-1-link">
+                    <circle id="path-1" fill="#263A4D" cx="24" cy="24" r="24"></circle>
+                    <path d="M34,25 C34,25.6782444 33.4501743,26.2280702 32.7719298,26.2280702 L18.7953216,26.2280702 L24.8808709,32.3647585 C25.36389,32.8518366 25.3622459,33.6377541 24.877193,34.122807 C24.3927327,34.6072673 23.6072673,34.6072673 23.122807,34.122807 L15.4142136,26.4142136 C14.633165,25.633165 14.633165,24.366835 15.4142136,23.5857864 L23.122807,15.877193 C23.6072673,15.3927327 24.3927327,15.3927327 24.877193,15.877193 C25.3622459,16.3622459 25.36389,17.1481634 24.8808709,17.6352415 L18.7953216,23.7719298 L32.7719298,23.7719298 C33.4501743,23.7719298 34,24.3217556 34,25 Z" id="a" fill="#FFFFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

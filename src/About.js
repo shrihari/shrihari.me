@@ -18,17 +18,17 @@ class About extends Component {
           </div>
           <div className="about-text">
 
-            <div>I'm <strong>Shrihari Sankaran</strong>, a product designer + frontend developer from Chennai, India.</div>
+            <div>I'm <strong>Shrihari Sankaran</strong>, a product designer + frontend developer based out of London.</div>
 
-            <div className="pointing-finger"><span role="img" aria-label="Pointing left">👈</span> That's me.</div>
+            <div>I got into tech &amp; design when I was 15, building simple websites on <a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities">Geocities</a> over dial-up internet. </div>
 
-            <div>I got into tech &amp; design when I was around 15, building simple websites on <a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities">Geocities</a> over dial-up internet. </div>
+            <div>These days, I spend most of my time designing simple &amp; usable experiences for digital products. I design in Sketch and build in HTML, CSS and Javascript. Recently, my focus has been on creating scalable design systems.</div>
 
-            <div>These days, I spend most of time designing simple &amp; usable experiences for digital products. I design in Sketch and build things in HTML, CSS and Javascript. Recently, I've been playing around with React-based tech like React Native and React VR.</div>
-
-            <div>While I'm not making stuff, I like to travel, learn/play some guitar or ponder about life.</div>
+            <div>While I'm not making stuff, I like to travel, learn/play guitar or ponder about life, universe and everything.</div>
 
             <div>You can reach out to me at <a href="mailto:iamshrihari@gmail.com">iamshrihari@gmail.com</a></div>
+
+            <div>Elsewhere: <a href="https://www.linkedin.com/in/sshrihari/">LinkedIn</a> • <a href="http://twitter.com/shrihari">Twitter</a></div>
           </div>
 
         </div>

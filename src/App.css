@@ -173,6 +173,13 @@ a:hover:before {
   color: #CCAD14;
 }
 
+.project.bridgeu {
+  background: #F5D8D8;
+}
+.project.bridgeu .project-name {
+  color: #CC3D3D;
+}
+
 .project.mileageapp {
   background: #FFF0D9;
 }
@@ -208,12 +215,19 @@ a:hover:before {
 
 }
 
-
-
 .switch-wrapper {
   position: relative;
 }
  
 .switch-wrapper > div {
+  position: absolute;
+}
+
+.switch-wrapper2 {
+  position: relative;
+  height: 200px;
+}
+ 
+.switch-wrapper2 > div {
   position: absolute;
 }

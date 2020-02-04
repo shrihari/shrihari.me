@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
+import bridgeu from './bridgeu.jpg';
+import bridgeu2x from './bridgeu@2x.jpg';
 import moviemonkey from './moviemonkey.jpg';
 import moviemonkey2x from './moviemonkey@2x.jpg';
 import freshcaller from './freshcaller.jpg';
@@ -31,6 +33,21 @@ class Home extends Component {
 
           <div className="intro-3">You can read <Link to="/about">about me</Link> or check out some of my work below.</div>
 
+          <div className="project bridgeu">
+
+            <div className="project-image">
+              <img src={bridgeu}  srcSet={bridgeu + ' 1x,' + bridgeu2x + ' 2x'} alt="BridgeU" />
+            </div>
+            <div className="project-details">
+              <div className="project-name">BridgeU</div>
+              <div className="project-description">
+              University and careers guidance platform for global secondary schools. I work on designing new features for the product, and improving the user experience to drive engagement.
+              </div>
+              <div className="project-link"><a href="http://bridgeu.com">bridgeu.com</a></div>
+            </div>
+
+          </div>
+
           <div className="project moviemonkey">
 
             <div className="project-image">
@@ -54,7 +71,7 @@ class Home extends Component {
             <div className="project-details">
               <div className="project-name">Freshcaller</div>
               <div className="project-description">
-              A SaaS phone product for sales and support teams. This is the product I design at my current job at Freshworks.
+              A SaaS phone product for sales and support teams. This is the product I designed at Freshworks.
               </div>
               <div className="project-link"><a href="http://freshcaller.com">freshcaller.com</a></div>
             </div>
@@ -69,7 +86,7 @@ class Home extends Component {
             <div className="project-details">
               <div className="project-name">BooknPlay</div>
               <div className="project-description">
-              An online platform to find and book sports facilities. I designed the first version of their web and mobile apps. Recently I redesigned the product, and developed the frontend using React. It's currently being integrated with the backend.
+              An online platform to find and book sports facilities. I designed the first version of their web and mobile apps. Recently I redesigned the product, and developed the frontend using React.
               </div>
               <div className="project-link"><a href="http://booknplay.in">booknplay.in</a></div>
             </div>
@@ -99,7 +116,7 @@ class Home extends Component {
             <div className="project-details">
               <div className="project-name">Spaces</div>
               <div className="project-description">
-              An indoor-map-based app to find and book meeting rooms. I designed and built this during an internal hackathon at Freshworks. 
+              An indoor-map-based app to find and book meeting rooms. I designed and built this during a hackathon at Freshworks. 
               </div>
               <div className="project-link"></div>
             </div>
